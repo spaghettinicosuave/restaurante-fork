@@ -1,0 +1,72 @@
+/*globals*/
+.orange-text {
+  color: #f8512f;
+}
+
+.orange-background {
+  background-color: #f8512f;
+}
+
+.text-shadow {
+  text-shadow: -1px 1px #333;
+}
+
+/*Header section*/
+.navbar {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #f8512f;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(0,0,0,.45);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f8512f;
+}
+
+/*carousel styles*/
+.item {
+  height: 620px;
+  background-position: center;
+  background-size: cover;
+}
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#logo-image {
+  height: 300px;
+  transform: translatey(35%);
+}
+
+#seating-background {
+  background-image: url('../img/restaurant-2.jpg');
+}
+
+#farm-background {
+  background-image: url('../img/farm-2.jpg');
+}
+
+.carousel-caption {
+  margin-bottom: 8%;
+}
+
+.btn-warning {
+  border-color: #f8512f;
+  background-color: #f8512f;
+}
+
+.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
+  border-color: #d34326;
+  background-color: #d34326;
+}
