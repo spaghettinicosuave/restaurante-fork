@@ -133,3 +133,39 @@ p {
 }
 
 /*review sect end*/
+
+/*Menu section*/
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  min-height: 600px;
+  padding-top: 5%;
+}
+
+#menu .nav-tabs>li>a.orange-text:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #f8512f;
+}
+
+.tab-pane {
+  background-color: #fff;
+}
+
+.food {
+  background-color: #fff;
+  padding-top: 2%;
+}
+
+.menu-title {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+ color: #f8512f;
+}
+
+
+/**/
